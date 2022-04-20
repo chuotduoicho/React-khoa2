@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
+import DanhSachSanPham from "./Props/DanhSachSanPham";
+import ListShoe from "./Props/ListShoe";
+import BaiTapGioHangRedux from "./BaiTapGioHangRedux/BaiTapGioHangRedux";
+import BaiTapGameXucXacRedux from "./XucXacRedux/BaiTapGameXucXacRedux";
+import BaiTapOanTuXi from "./BaiTapOanTuXi/BaiTapOanTuXi";
+import BookingTicket from "./BookingTicket/BookingTicket";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <DanhSachSanPham /> */}
+      {/* <ListShoe /> */}
+      {/* <BaiTapGioHangRedux /> */}
+      <BaiTapGameXucXacRedux />
+      {/* <BaiTapOanTuXi /> */}
+      {/* <BookingTicket /> */}
     </div>
   );
 }
